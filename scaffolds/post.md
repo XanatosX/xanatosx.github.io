@@ -1,5 +1,8 @@
 ---
+layout: post
 title: {{ title }}
+tags: []
+categories:
 date: {{ date }}
-tags:
+updated: {{ date }}
 ---
