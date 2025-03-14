@@ -1013,6 +1013,12 @@ links:
       link: "https://xanatos.itch.io/",
       #avatar: "/img/favicon.png"
     }
+    - {
+      title: "GitHub",
+      intro: "My GitHub account, also hosting this website",
+      link: "https://github.com/XanatosX",
+      #avatar: "/img/favicon.png"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
