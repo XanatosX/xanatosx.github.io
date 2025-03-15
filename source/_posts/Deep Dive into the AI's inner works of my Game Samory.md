@@ -4,10 +4,11 @@ title: A Deep Dive into the AI Mechanics Behind Samory
 tags: 
     - Godot
     - Samory
+    - Technical
 categories:
     - Game Dev
 date: 2025-03-15T20:41:57+01:00
-updated: 2025-03-15T20:41:57+01:00
+updated: 2025-03-15T20:48:57+01:00
 ---
 
 As the title suggests with this post I want to make a deep dive into the AI of Samory. I properly did totally over engineer this for a game like
