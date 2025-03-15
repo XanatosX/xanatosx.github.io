@@ -8,7 +8,7 @@ tags:
 categories:
     - Game Dev
 date: 2025-03-15T20:41:57+01:00
-updated: 2025-03-15T20:48:57+01:00
+updated: 2025-03-15T20:53:57+01:00
 ---
 
 As the title suggests with this post I want to make a deep dive into the AI of Samory. I properly did totally over engineer this for a game like
@@ -46,7 +46,7 @@ The second part of the AI are actions, a action will describe some sort of logic
 If a round should be played by the AI it will get the `AIDifficultyResource` object of that player.
 
 > The [AIDifficultyResource][ai-difficulty-resource] resource does contain the name of the ai as a translation key,
-> , along with a set of actions the AI can perform. Additionally, it contains an instance of a blackboard for providing a memory to the AI.
+> along with a set of actions the AI can perform. Additionally, it contains an instance of a blackboard for providing a memory to the AI.
 
 After getting that information it will start a timer to appear somewhat random to the player how long it takes to reveal a card, this should fake the illusion of "thinking".
 If the timer triggers the AI will reveal a card and increase a number to keep track of the number of revealed cards for the current round.
